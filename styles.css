@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+h2{
+    color: #fff;
+   
+}
+
+
+header{
+    color: red;
+    text-align: center;
+
+}
+p{
+    color: white;
+}
+
+/*CARD*/
+#card{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+
+}
+.card-1{
+width: 30%;
+background-color: blueviolet;
+transition: background-color 0.5s ease-in-out;
+}
+
+img{
+   max-width: 100%;
+    text-align: center;
+}
+
+.card-1:hover{
+background-color: red;
+
+}
+
+.h2-p1{
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

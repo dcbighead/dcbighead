@@ -1,0 +1,60 @@
+#hype{
+    background: white;
+    color: black;
+    overflow: auto;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+
+
+#hype .hello,.hey {
+color: black;
+}
+ #hype .hey{
+float: left;
+padding-top: 20px;
+}
+#hype .chips ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;    
+}
+#hype ul{
+    list-style: none;
+    float:left;
+}
+#hype ul li {
+    float: right;
+}
+#hype ul li .hello, .hey {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#hype ul li .hello, .hey:hover,
+ {
+    background: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
